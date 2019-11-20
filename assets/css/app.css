@@ -1,0 +1,262 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #FFF;
+  font-family: "Helvetica Neue",sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+input, button, a{
+  outline: 0;
+  cursor: pointer;
+}
+.content{
+  max-width: 1172px;
+  margin: 0 95.5px;
+  padding: 0 20px 
+}
+
+header#main-hearder {
+  height: 65px;
+  position: relative;
+  z-index: 1;
+}
+header#main-hearder .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+header#main-hearder div.container-nav {
+  display: flex;
+}
+header#main-hearder div.container-nav button#button-upgrade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:  1px solid rgba(0, 0, 0, 0.84);
+  color: rgba(0, 0, 0, 0.84);
+  font-size: 15px;
+  border-radius: 4px;
+  background: transparent;
+  margin: 0 16px 0 0;
+  padding: 0 14px;
+}
+header#main-hearder div.container-nav img {
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+header#main-hearder div.container-nav img#button-notification {
+  margin-top: 6px;
+}
+header#main-hearder div.container-nav img#button-user{
+  border-radius: 50%;
+}
+header#main-hearder div.container-nav div.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+header#main-hearder div.container-nav div.search-bar input {
+  border: 0;
+  background: transparent;
+  width: 110px;
+}
+div.wrapper-content{
+  margin-top: 30px;
+  display: flex;
+}
+nav#menu-nav {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  height: 50px;
+}
+nav#menu-nav ul {
+  display: flex;
+}
+nav#menu-nav ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0 13px;
+}
+nav#menu-nav ul li:first-child {
+  padding: 0;
+}
+nav#menu-nav ul li:last-child {
+  padding: 0;
+}
+nav#menu-nav ul li img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav#menu-nav ul li a{
+  text-decoration: none;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+  text-transform: uppercase;
+}
+nav#menu-nav ul li a:hover {
+  color: rgba(0, 0, 0, 0.84);
+}
+div.wrapper-content section#posts {
+  display: flex;
+}
+div.wrapper-content section#posts ul {
+  display: flex;
+  flex-direction: column;
+}
+div.wrapper-content section#posts ul li {
+  margin-top: 40px;
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+}
+div.wrapper-content section#posts ul li:first-child {
+  margin-top: 0;
+}
+div.wrapper-content section#posts ul li:last-child {
+  margin-bottom: 40px;
+}
+div.wrapper-content section#posts ul li div#Descriptions {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+div.wrapper-content section#posts ul li div#Descriptions span {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.54);
+}
+div.wrapper-content section#posts ul li div#Descriptions span a {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+  padding-right: 5px;
+}
+div.wrapper-content section#posts ul li div#Descriptions h2{
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.84);
+  margin-top: 3px;
+}
+div.wrapper-content section#posts ul li div#Descriptions p {
+  font-size: 16;
+  color: rgba(0, 0, 0, 0.54);
+  margin: 8px 0 0;
+}
+div.wrapper-content section#posts ul li div#Descriptions div#author-and-blog {
+  margin-top: 15px;
+  display: flex;
+  font-size: 14px;
+}
+div.wrapper-content section#posts ul li div#Descriptions div#author-and-blog a {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.84);
+  text-decoration: none;
+}
+div.wrapper-content section#posts ul li div#Descriptions div#author-and-blog a:hover {
+  text-decoration: underline; 
+} 
+div.wrapper-content section#posts ul li div#Descriptions div#footer-post {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+div.wrapper-content section#posts ul li div#Descriptions div#footer-post div#date-and-time small {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.54);
+}
+div.wrapper-content section#posts ul li div#Descriptions div#footer-post div#date-and-time span.divider:after {
+  content: '\00B7';
+}
+div.wrapper-content aside#side-popular {
+  position: block;
+  width: 328px;
+  display: flex;
+  margin: 32px;
+  flex-direction: column;
+  align-items: center;
+}
+div.wrapper-content aside#side-popular div.title-bar {
+  width: 264px;
+  height: 45px;
+  padding: 0 0 16px;
+  border-bottom: 1px solid rgba(0,0,0,.15);
+}
+div.wrapper-content aside#side-popular div.title-bar h3{
+  color: rgba(0, 0, 0, 0.84);
+}
+div.wrapper-content aside#side-popular ul {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(0,0,0,.15);
+}
+div.wrapper-content aside#side-popular ul li {
+  display: flex;
+  justify-content: center;
+}
+div.wrapper-content aside#side-popular ul li h1 {
+  color: rgba(0, 0, 0, 0.15);
+}
+div.wrapper-content aside#side-popular ul li div#resume {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px 20px;
+}
+div.wrapper-content aside#side-popular ul li div#resume h2 {
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.84);
+}
+div.wrapper-content aside#side-popular ul li div#resume div#author {
+  margin-top: 5px;
+  font-size: 10!important;
+  color: rgba(0, 0, 0, 0.54);
+}
+div.wrapper-content aside#side-popular ul li div#resume div#author a {
+  font-size: 10!important;
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+}
+div.wrapper-content aside#side-popular ul li div#resume div#author  a:hover {
+  text-decoration: underline;
+}
+div.wrapper-content aside#side-popular ul li div#resume div#times {
+  margin-top: 10px;
+  display: flex;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.54);
+}
+div.wrapper-content aside#side-popular ul li div#resume div#times small {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+div.wrapper-content aside#side-popular ul li div#resume div#times small:first-child {
+  padding-left: 0px;
+}
+div.wrapper-content aside#side-popular ul li div#resume div#times span.divider:after {
+  content: '\00B7';
+}
+div.wrapper-content aside#side-popular footer {
+  margin-top: 20px;
+}
+div.wrapper-content aside#side-popular footer a {
+  font-size: 10;
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+  padding: 5px;
+}
+div.wrapper-content aside#side-popular footer a:hover {
+  text-decoration: underline;
+}
