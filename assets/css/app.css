@@ -14,14 +14,23 @@ body{
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
 }
-input, button, a{
+input, button, a, img{
   outline: 0;
   cursor: pointer;
 }
+div.wrapper {
+  height: 100%;
+  min-height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
 .content{
   max-width: 1172px;
-  margin: 0 95.5px;
-  padding: 0 20px 
+  margin: 0 auto;
+  padding: 0 20px; 
 }
 
 header#main-hearder {
@@ -157,7 +166,11 @@ div.wrapper-content section#posts ul li div#Descriptions p {
 div.wrapper-content section#posts ul li div#Descriptions div#author-and-blog {
   margin-top: 15px;
   display: flex;
+  
+}
+div.wrapper-content section#posts ul li div#Descriptions div#author-and-blog small {
   font-size: 14px;
+  margin: 0 5px;
 }
 div.wrapper-content section#posts ul li div#Descriptions div#author-and-blog a {
   font-size: 14px;
@@ -225,7 +238,7 @@ div.wrapper-content aside#side-popular ul li div#resume div#author {
   color: rgba(0, 0, 0, 0.54);
 }
 div.wrapper-content aside#side-popular ul li div#resume div#author a {
-  font-size: 10!important;
+  font-size: 14px;
   color: rgba(0, 0, 0, 0.54);
   text-decoration: none;
 }
@@ -235,10 +248,10 @@ div.wrapper-content aside#side-popular ul li div#resume div#author  a:hover {
 div.wrapper-content aside#side-popular ul li div#resume div#times {
   margin-top: 10px;
   display: flex;
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.54);
 }
 div.wrapper-content aside#side-popular ul li div#resume div#times small {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.54);
   padding-right: 5px;
   padding-left: 5px;
 }
@@ -246,13 +259,14 @@ div.wrapper-content aside#side-popular ul li div#resume div#times small:first-ch
   padding-left: 0px;
 }
 div.wrapper-content aside#side-popular ul li div#resume div#times span.divider:after {
+  color: rgba(0, 0, 0, 0.54);
   content: '\00B7';
 }
 div.wrapper-content aside#side-popular footer {
   margin-top: 20px;
 }
 div.wrapper-content aside#side-popular footer a {
-  font-size: 10;
+  font-size: 14px;
   color: rgba(0, 0, 0, 0.54);
   text-decoration: none;
   padding: 5px;
